@@ -1,70 +1,112 @@
-# Getting Started with Create React App
+# Train Booking App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based web application for managing train bookings. The application allows users to manage train reservations, check PNR status, and maintain profile information through a clean and responsive interface.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+The project is designed to provide a simple and user-friendly train booking management system with reusable components and modular page structures.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- View and manage train bookings
+- Check PNR status
+- User profile management
+- Responsive user interface
+- SCSS-based styling architecture
+- Reusable React components
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React.js
+- SCSS
+- JavaScript
+- HTML5
+- CSS3
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Project Structure
 
-### `npm run eject`
+```bash
+Train-Booking-App/
+│
+├── public/
+│   ├── index.html
+│   ├── manifest.json
+│   └── robots.txt
+│
+├── src/
+│   ├── components/
+│   │   └── Navbar/
+│   │
+│   ├── pages/
+│   │   ├── Home.js
+│   │   ├── MyBookings.js
+│   │   ├── PNRStatus.js
+│   │   └── Profile.js
+│   │
+│   ├── styles/
+│   │   ├── global.scss
+│   │   └── variables.scss
+│   │
+│   ├── App.js
+│   └── index.js
+│
+├── package.json
+└── README.md
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Components
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Navbar
+Reusable navigation component used across the application for page navigation.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## Pages
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Home
+Landing page of the application displaying basic train booking information.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### MyBookings
+Displays the list of train bookings made by the user and allows booking management.
 
-### Code Splitting
+### PNRStatus
+Allows users to check the status of their train ticket using the PNR number.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Profile
+Manages user profile details and related information.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Styling
 
-### Making a Progressive Web App
+The application uses SCSS for styling and maintains a modular styling structure:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- `global.scss` for global application styles
+- `variables.scss` for reusable SCSS variables
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Responsive Design
 
-### Deployment
+The application is designed to work across different screen sizes including desktop, tablet, and mobile devices.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## Future Enhancements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Online payment integration
+- Train schedule search
+- Seat availability checker
+- Authentication and authorization
+- Admin dashboard
+- Notification system
