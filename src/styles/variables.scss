@@ -1,0 +1,37 @@
+// Color Variables
+$primary-color: #6c3fb5;
+$secondary-color: #8e44ad;
+$dark-bg: #1a1a2e;
+$card-bg: #16213e;
+$text-light: #e0e0e0;
+$text-dark: #1a1a2e;
+$success-color: #2ecc71;
+$danger-color: #e74c3c;
+$warning-color: #f39c12;
+$border-color: #444;
+$accent-color: #00d4ff;
+
+// Breakpoints
+$mobile: 480px;
+$tablet: 768px;
+$desktop: 1024px;
+$large: 1440px;
+
+// Spacing
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+$spacing-xl: 32px;
+
+// Border Radius
+$border-radius-sm: 4px;
+$border-radius-md: 8px;
+$border-radius-lg: 12px;
+
+// Shadows
+$box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+$box-shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.4);
+
+// Transitions
+$transition: all 0.3s ease;
